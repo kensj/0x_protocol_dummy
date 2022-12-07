@@ -6,3 +6,13 @@
 12:42:59.309745 db@open done T·5.077917ms
 12:42:59.354525 db@close closing
 12:42:59.354853 db@close done T·326.833µs
+=============== Dec 7, 2022 (EST) ===============
+15:07:22.081897 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:07:22.083448 version@stat F·[] S·0B[] Sc·[]
+15:07:22.083474 db@open opening
+15:07:22.083679 journal@recovery F·1
+15:07:22.087230 journal@recovery recovering @1
+15:07:22.093073 memdb@flush created L0@2 N·11 S·590B "HfP..\xb5\xc1X,v4":"r\x00\x00..\xb5\xc1X,v6"
+15:07:22.094793 version@stat F·[1] S·590B[590B] Sc·[0.25]
+15:07:22.120690 db@janitor F·3 G·0
+15:07:22.120718 db@open done T·37.233417ms
