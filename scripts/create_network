@@ -1,0 +1,7 @@
+#!/bin/sh
+
+DIRNAME=$(dirname "$0")
+SCRIPT_DIR=$(cd "${DIRNAME}" && pwd)
+ROOT_DIR=${SCRIPT_DIR}/..
+
+"${SCRIPT_DIR}/geth" --http --http.port "8085" --datadir "${ROOT_DIR}/data/test_chain" --networkid 123 --nodiscover

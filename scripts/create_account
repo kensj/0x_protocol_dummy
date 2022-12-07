@@ -1,0 +1,8 @@
+#!/bin/sh
+
+DIRNAME=$(dirname "$0")
+SCRIPT_DIR=$(cd "${DIRNAME}" && pwd)
+ROOT_DIR=${SCRIPT_DIR}/..
+
+"${SCRIPT_DIR}/geth" --exec "personal.newAccount()" attach "${ROOT_DIR}/data/test_chain/geth.ipc"
+
