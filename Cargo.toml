@@ -7,4 +7,4 @@ edition = "2021"
 
 [dependencies]
 
-ethers-contract = "^1.0.2"
+ethers = "1.0.2"
