@@ -1,0 +1,10 @@
+{
+  "name": "hardhat-project",
+  "dependencies": {
+    "@0x/contract-wrappers": "^13.22.12",
+    "@0x/contracts-erc20": "^3.3.53",
+    "@0x/contracts-utils": "^4.8.34",
+    "@0x/contracts-zero-ex": "^0.38.2",
+    "hardhat": "^2.12.3"
+  }
+}

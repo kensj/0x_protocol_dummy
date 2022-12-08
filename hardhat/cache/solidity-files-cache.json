@@ -1,0 +1,36 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/kenji/Projects/eulith_interview/hardhat/contracts/ZeroProtocol.sol": {
+      "lastModificationDate": 1670465004051,
+      "contentHash": "f6189fa4aa316b8ec17921cc1ba9a46e",
+      "sourceName": "contracts/ZeroProtocol.sol",
+      "solcConfig": {
+        "version": "0.6.5",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": []
+    }
+  }
+}
